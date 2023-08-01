@@ -1,0 +1,63 @@
+.player {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 50;
+    background-color: black;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .player__titleImage {
+        display: flex;
+        align-items: center;
+        gap: 1em;
+
+        .titleImage__img {
+            width: 60px;
+            height: 60px;
+        }
+
+        .titleImage__text {
+            display: flex;
+            flex-direction: column;
+            gap: .5em;
+
+            .titleImage__title {
+                font-size: 14px;
+                color: white;
+                font-weight: 500;
+            }
+
+            .titleImage__author {
+                font-size: 13px;
+            }
+        }
+
+        .titleImage__controlers {
+            display: flex;
+            gap: 1em;
+            font-size: 18px;
+            margin-left: .5em;
+
+            .titleImage__heart {
+                font-size: 20px;
+                &:hover{
+                    cursor: pointer;
+                    color: white;
+                }
+            }
+
+            .titleImage__screen {
+                &:hover{
+                    cursor: pointer;
+                    color: white;
+
+                }
+            }
+        }
+    }
+
+}

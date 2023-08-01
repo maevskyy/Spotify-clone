@@ -1,0 +1,28 @@
+.input__block {
+    display: flex;
+    align-items: center;
+    gap: .5em;
+    padding: .7em 1em;
+    width: 23em;
+    border-radius: 50px;
+    border: 2px solid #242424;
+    background-color: #242424;
+
+    .input__icon {
+        font-size: 20px;
+    }
+
+    .input__input {
+        background-color: #242424;
+
+        &::placeholder {
+            font-size: 14px;
+        }
+
+    }
+
+    &:hover {
+        filter: brightness(1.20);
+        transition-duration: 300ms;
+    }
+}

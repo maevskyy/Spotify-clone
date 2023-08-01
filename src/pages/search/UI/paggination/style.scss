@@ -1,0 +1,12 @@
+.paggination{
+    display: flex;
+    align-items: center;
+    gap: .35em;
+    .paggination__arrows{
+        font-size: 30px;
+        border-radius: 9999px;
+        background-color: black;
+        padding: .1em;
+    }
+    
+}
