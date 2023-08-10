@@ -1,0 +1,40 @@
+.navbar {
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+    width: 30%;
+
+    .navbar__block {
+        padding: 1.2em;
+        display: flex;
+        gap: 1.2em;
+        flex-direction: column;
+        width: 100%;
+        border-radius: 8px;
+        background-color: #121212;
+
+        &:last-child {
+            flex-grow: 1;
+        }
+
+        .block__items {
+            display: flex;
+            align-items: center;
+            gap: 1.3em;
+
+
+            &:hover {
+                color: red;
+            }
+
+
+
+            .block__icon {
+                font-size: 1.6em;
+            }
+
+        }
+
+    }
+
+}

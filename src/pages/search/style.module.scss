@@ -1,0 +1,33 @@
+@import '../../shared/UI/mixin.scss';
+
+.page{
+  @include pageWrapper;
+  padding: .8em;
+  height: 100%;
+  .page__header{
+    display: flex;
+    justify-content: space-between;
+
+    .page__header__left{
+        display: flex;
+        gap: .5em;
+    }
+  }
+  .page__main{
+    overflow: auto;
+    height: 92%;
+    &::-webkit-scrollbar-track {
+        background-color: transparent;
+    }
+
+    &::-webkit-scrollbar {
+        width: 15px; 
+        height: 10px; 
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: #e2e2e24e;
+
+    }
+  }
+}

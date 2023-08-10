@@ -1,0 +1,21 @@
+.paggination {
+    display: flex;
+    align-items: center;
+    gap: .35em;
+
+    .paggination__arrows {
+        font-size: 30px;
+        border-radius: 9999px;
+        background-color: black;
+        padding: .1em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 35px;
+        width: 35px;
+        :hover{
+            cursor: pointer;
+        }
+    }
+
+}

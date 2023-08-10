@@ -1,0 +1,5 @@
+@import '../../shared/UI/mixin.scss';
+
+.page{
+  @include pageWrapper
+}
